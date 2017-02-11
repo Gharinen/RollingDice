@@ -1,70 +1,20 @@
-from random import randint
-from os import system
+#!/usr/bin/env python
 
  #     Rolling Dice
  #     Version 1.0
  #     Rorounifix@gmail.com
  #     Supported Python Version 2.x
 
+from random import randint
+import os
+from pySys import *
+from dice import *
 
- 
- 
-def dice1():
-    print("====================")
-    print("||                ||")
-    print("||                ||")
-    print("||        O       ||")
-    print("||                ||")
-    print("||                ||")
-    print("====================")
-    
-def dice2():
-    print("====================")
-    print("||                ||")
-    print("||                ||")
-    print("||    O      O    ||")
-    print("||                ||")
-    print("||                ||")
-    print("====================")
-    
-def dice3():
-    print("====================")
-    print("||                ||")
-    print("||                ||")
-    print("||    O   O   O   ||")
-    print("||                ||")
-    print("||                ||")
-    print("====================")
-    
-def dice4():
-    print("====================")
-    print("||                ||")
-    print("||   O       O    ||")
-    print("||                ||")
-    print("||   O       O    ||")
-    print("||                ||")
-    print("====================")
-    
-def dice5():
-    print("====================")
-    print("||  O          O  ||")
-    print("||                ||")
-    print("||       O        ||")
-    print("||                ||")
-    print("||  O          O  ||")
-    print("====================")
-    
-def dice6():
-    print("====================")
-    print("||   O         O  ||")
-    print("||                ||")
-    print("||   O         O  ||")
-    print("||                ||")
-    print("||   O         O  ||")
-    print("====================")
-    
+if __name__ == "__main__":
+    print("My First python")
 
-def roll_a_dice():    
+
+def roll_a_dice():
     x = raw_input("Press 'q' to quit or Enter to Roll a dice : ")
     roll = randint(1,6)
     if(x == 'q'):
