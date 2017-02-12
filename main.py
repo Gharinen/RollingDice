@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
- #     Rolling Dice
- #     Version 1.0
- #     Rorounifix@gmail.com
- #     Supported Python Version 2.x
+#     Rolling Dice
+#     Version 1.0
+#     Rorounifix@gmail.com
+#     Supported Python Version 2.x
 
 from random import randint
 from os import *
@@ -63,6 +63,5 @@ def roll_a_dice():
             decor()
             dice6()
             roll_a_dice()
-        
-        
+
 roll_a_dice()
