@@ -1,11 +1,5 @@
 #!/usr/bin/env python
 
-if __name__ == "__main__":
-    print("My First python")
-else:
-    print("This is a module")
-
-
 def dice1():
     print("====================")
     print("||                ||")

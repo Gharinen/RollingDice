@@ -1,15 +1,13 @@
 #!/usr/bin/env python
 
-if __name__ == "__main__":
-    print("My First python")
-else:
-    print("This is a module")
+from os import *
 
 def clear():
-    name = os.name
     if(name == "nt"):
-        clear = os.system("clear")
+        clear = system("cls")
     else:
-        clear = os.system("cls")
+        clear = system("clear")
+
+
 
 
